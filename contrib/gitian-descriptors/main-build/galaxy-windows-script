@@ -291,6 +291,19 @@ git submodule update --init --recursive libs/regex
 
 git submodule update --init --recursive libs/locale
 git submodule update --init --recursive libs/chrono
+
+git submodule update --init --recursive libs/atomic
+git submodule update --init --recursive libs/ratio
+git submodule update --init --recursive libs/tuple
+git submodule update --init --recursive libs/unordered
+git submodule update --init --recursive libs/exception
+git submodule update --init --recursive libs/intrusive
+git submodule update --init --recursive libs/align
+git submodule update --init --recursive libs/algorithm
+git submodule update --init --recursive libs/multiprecision
+git submodule update --init --recursive libs/format
+git submodule update --init --recursive libs/optional
+git submodule update --init --recursive libs/rational
 fi
 
 # delete it to have a clean build (even if we keept downloaded PREVIOUSLY files)
